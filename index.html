@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Formatação de Moeda</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Salário Global</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Exemplo de Formatação de Moeda</h1>
     <div class="container">
-        <h2>Valores formatados</h2>
-        <ul id="currency-list">
-            <!-- Valores serão preenchidos com JavaScript -->
-        </ul>
+        <h1>Calculadora de Salário Global</h1>
+        
+        <div class="calculator">
+            <div class="input-group">
+                <label for="gross-salary">Salário Bruto:</label>
+                <input type="number" id="gross-salary" min="0" step="0.01">
+            </div>
+
+            <div class="input-group">
+                <label for="country">País:</label>
+                <select id="country">
+                    <option value="BR">Brasil</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="DE">Alemanha</option>
+                    <!-- Outros países -->
+                </select>
+            </div>
+
+            <button id="calculate">Calcular</button>
+        </div>
+
+        <div id="results" class="hidden">
+            <h2>Resultado</h2>
+            <div id="salary-details"></div>
+            <div id="currency-comparison"></div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
