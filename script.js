@@ -104,8 +104,4 @@ function getLocale(country) {
 function getConversionRate(from, to) {
     // Mock - substitua por API real
     const rates = { 'BRL-USD': 0.19, 'BRL-EUR': 0.17, '
-       async function getRealRate(base, target) {
-    const response = await fetch(https://api.exchangerate-api.com/v4/latest/${base});
-    const data = await response.json();
-    return data.rates[target];
-} 
+    
