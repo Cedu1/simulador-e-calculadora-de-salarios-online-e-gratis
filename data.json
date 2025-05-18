@@ -6,7 +6,6 @@
     { "valor": 1000.5, "moeda": "GBP", "localidade": "en_GB" },
     { "valor": 1000, "moeda": "JPY", "localidade": "ja_JP" }
 ]
-// Exemplo para adicionar no data.json
 "DE": {
     "name": "Alemanha",
     "currency": "EUR",
