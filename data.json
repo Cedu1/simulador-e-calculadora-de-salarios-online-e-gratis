@@ -1,0 +1,8 @@
+
+[
+    { "valor": 1000.5, "moeda": "USD", "localidade": "en_US" },
+    { "valor": 1000.5, "moeda": "EUR", "localidade": "de_DE" },
+    { "valor": 1000.5, "moeda": "BRL", "localidade": "pt_BR" },
+    { "valor": 1000.5, "moeda": "GBP", "localidade": "en_GB" },
+    { "valor": 1000, "moeda": "JPY", "localidade": "ja_JP" }
+]
