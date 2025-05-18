@@ -6,8 +6,4 @@
     { "valor": 1000.5, "moeda": "GBP", "localidade": "en_GB" },
     { "valor": 1000, "moeda": "JPY", "localidade": "ja_JP" }
 ]
-"DE": {
-    "name": "Alemanha",
-    "currency": "EUR",
-    "tax_brackets": []
-}
+
